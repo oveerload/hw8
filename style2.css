@@ -1,0 +1,61 @@
+.monday li {
+  color: blue;
+}
+
+.tuesday li {
+  color: green;
+}
+
+.wednesday li {
+  color: purple;
+}
+
+.thursday li {
+  color: orange;
+}
+
+.friday li {
+  color: red;
+}
+
+/* Псевдокласи стану */
+ul li:hover {
+  font-weight: bold;
+}
+
+ul li:active {
+  color: yellow;
+}
+
+ul li:focus {
+  outline: 2px solid black;
+}
+
+ul li:first-child {
+  font-style: italic;
+}
+
+ul li:last-child {
+  text-decoration: underline;
+}
+
+/* Структурні псевдокласи */
+ul li:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+ul li:nth-child(even) {
+  background-color: lightblue;
+}
+
+ul li:nth-of-type(2) {
+  font-size: 20px;
+}
+
+ul li:first-of-type {
+  text-transform: uppercase;
+}
+
+ul li:last-of-type {
+  color: brown;
+}
